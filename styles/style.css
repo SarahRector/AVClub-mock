@@ -18,7 +18,7 @@ body {
     --gutter: 30px;
     --footer-height: 25px;
     
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: white;
 }
 .border{
@@ -38,9 +38,40 @@ main {
     display: grid;
     grid-template-rows: 1fr 3fr 8fr;
 }
+nav {
+    border-top: 3px solid rebeccapurple;
+}
 .content {
     height: 100%;
     width: 100%;
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
+}
+.features {
+    background-image: url(http://www.fillmurray.com/400/600);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: rebeccapurple;
+    border: dotted 3px black;
+}
+.reviews {
+    background-image: url(http://www.fillmurray.com/200/300);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: rebeccapurple;
+    border: solid 3px black;
+}
+.news {
+    background-image: url(http://www.fillmurray.com/300/600);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: rebeccapurple;
+    border: dotted 3px black;
+}
+header {
+    background-color: black;
+    color: white;
 }
